@@ -1,0 +1,32 @@
+/* Botones elegantes */
+.cta-btn {
+  display: inline-block;
+  position: relative;
+  padding: 0.8rem 1rem; /* Ajusta el espaciado de los botones según tu preferencia */
+  font-weight: bold;
+  line-height: 1;
+  z-index: 1;
+  transition: all 0.3s ease; /* Ajusta la duración de la transición según tu preferencia */
+  border: 2px solid #085165; /* Borde para los botones */
+  color: #085165; /* Color de texto para los botones */
+  text-decoration: none;
+  background: transparent; /* Fondo transparente */
+  cursor: pointer;
+  border-radius: 4px; /* Añade bordes redondeados a los botones */
+
+  &:hover {
+    background-color: #333333; /* Cambia el color de fondo al pasar el cursor */
+    color: #ffffff; /* Cambia el color de texto al pasar el cursor */
+  }
+}
+
+/* Botón de enlace para el currículum */
+.cta-btn--resume {
+  border: 2px solid #ffffff; /* Borde para el botón de enlace */
+  color: #ffffff; /* Color de texto para el botón de enlace */
+
+  &:hover {
+    background-color: #333333; /* Cambia el color de fondo al pasar el cursor */
+    color: #ffffff; /* Cambia el color de texto al pasar el cursor */
+  }
+}
